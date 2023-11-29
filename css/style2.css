@@ -1,1 +1,88 @@
+.lineaire-simple {
+  background: linear-gradient(red, purple);
+  width: 100%;
+  height: 100vh; 
+  overflow: auto;
+}
+
+.centrer {
+  display: block;
+  position: relative;
+  left: 1.5%; /*pour ajuster la position*/
+  text-align: left;
+  width: 97%; /*pour ajuster la largeur*/
+  transform-origin: 0 0;
+}
+
+@media (max-width: 768px) {
+  .centrer {
+    width: 90%; /* Ajustement de la largeur pour les écrans*/
+  }
+}
+
+@media (max-width: 480px) {
+  .centrer {
+    width: 80%; /* Ajustement de la largeur pour les écrans*/
+  }
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+  margin-left: 15px; 
+}
+
+li {
+  color: white;
+  margin-left: 15px; 
+  font-style: italic;
+}
+
+h2 {
+  font-style: italic;
+  color: white;
+  margin-left: 15px;
+  text-align: left;
+}
+
+.image-align-left {
+  float: left; /* Contour de l'image */
+  margin-right: 30px;
+}
+
+.image-align-right {
+  float: right; /* Contour de l'image */
+}
+
+strong {
+  color: black;
+}
+
+
+.additional-fields {
+  color: white;	
+  display: none;
+  position: relative ;
+  left:880px;  
+  bottom: 50px;
+  margin-right: 20px;
+}/*lien hypertexte bouton onglet*/
+
+
+.additional-fields th {
+  margin-bottom: 10px;
+  margin-left: 490x;
+  bottom: 400px;
+}
+.toggle-icon {
+  cursor: pointer;
+  margin-left: 2200px;
+  color: white;
+}
+.dynamic-content {
+  display: none;
+}
 
