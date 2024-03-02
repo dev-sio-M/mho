@@ -33,6 +33,9 @@ Route::get('/onglet/monCompte', function () {
     }
 });
 
+Route::delete('/', 'App\Http\Controllers\supprimerCompteController@destroy')->name('destroy');
+
+
 
 Route::get('/onglet/seConnecter', 'App\Http\Controllers\connexionController@showLoginForm')->name('showLoginForm');
 Route::post('/onglet/seConnecter', 'App\Http\Controllers\connexionController@login')->name('login');
@@ -40,10 +43,11 @@ Route::post('/onglet/seConnecter', 'App\Http\Controllers\connexionController@log
 Route::get('/onglet/creerCompte', 'App\Http\Controllers\CreerCompteController@showRegistrationForm');
 Route::post('/onglet/creerCompte', 'App\Http\Controllers\CreerCompteController@register')->name('register');
 
-
 Route::post('/onglet/logout', 'App\Http\Controllers\connexionController@logout')->name('logout');
 
-
+Route::get('/onglet/commentaire', function () {
+    return view('onglet.commentaire');
+});
 
 
 
@@ -246,8 +250,8 @@ Route::get('/heros/blackBolt', function () {
     return view('heros.blackBolt');
 });
 
-Route::get('/heros/blakCat', function () {
-    return view('heros.blakCat');
+Route::get('/heros/blackCat', function () {
+    return view('heros.blackCat');
 });
 
 Route::get('/heros/blackPanther', function () {
@@ -366,8 +370,8 @@ Route::get('/heros/devilDinosaur', function () {
     return view('heros.devilDinosaur');
 });
 
-Route::get('/heros/doctorDom', function () {
-    return view('heros.doctorDom');
+Route::get('/heros/doctorDoom', function () {
+    return view('heros.doctorDoom');
 });
 
 Route::get('/heros/doctorOctopus', function () {
