@@ -46,7 +46,7 @@ let names = [
   "deadpool",
   "death",
   "deathlok",
-  "debri",
+  "debrii",
   "destroyer",
   "devil dinosaur", 
   "doctor doom",
@@ -81,7 +81,7 @@ let names = [
   "hulk",
   "hulkbuster",
   "human torch",
-  "iceman",
+  "ice man",
   "invisible woman",
   "iron fist",
   "iron lad",
@@ -277,7 +277,7 @@ function redirectToPage(value) {
     window.location.href = "/heros/angel";
   }
   if (value === "angela") {
-    window.location.href = "/heros/angela.html";
+    window.location.href = "/heros/angela";
   }
   if (value === "ant man") {
     window.location.href = "/heros/antMan";
@@ -343,7 +343,7 @@ function redirectToPage(value) {
     window.location.href = "/heros/carnage";
   }
   if (value === "cerebro") {
-    window.location.href = "heros/cerebro";
+    window.location.href = "/heros/cerebro";
   }
   if (value === "cloak") {
     window.location.href = "/heros/cloak";
@@ -352,7 +352,7 @@ function redirectToPage(value) {
     window.location.href = "/heros/coleenWing";
   }
   if (value === "collector") {
-    window.location.href = "/heros/Collector";
+    window.location.href = "/heros/collector";
   }
   if (value === "colossus") {
     window.location.href = "/heros/colossus";
@@ -390,8 +390,8 @@ function redirectToPage(value) {
   if (value === "deathlok") {
     window.location.href = "/heros/deathlok";
   }
-  if (value === "debri") {
-    window.location.href = "/heros/debri";
+  if (value === "debrii") {
+    window.location.href = "/heros/debrii";
   }
   if (value === "destroyer") {
     window.location.href = "/heros/destroyer";
@@ -447,10 +447,10 @@ function redirectToPage(value) {
   if (value === "ghost") {
     window.location.href = "/heros/ghost";
   }
-  if (value === "ghost Rider") {
+  if (value === "ghost rider") {
     window.location.href = "/heros/ghostRider";
   }
-  if (value === "green goglin") {
+  if (value === "green goblin") {
     window.location.href = "/heros/greenGoblin";
   }
   if (value === "groot") {
@@ -460,7 +460,7 @@ function redirectToPage(value) {
     window.location.href = "/heros/hawkeye";
   }
   if (value === "hazmat") {
-    window.location.href = "/hazmat";
+    window.location.href = "/heros/hazmat";
   }
   if (value === "heimdall") {
     window.location.href = "/heros/heimdall";
@@ -469,16 +469,19 @@ function redirectToPage(value) {
     window.location.href = "/heros/hela";
   }
   if (value === "helicarrier") {
-    window.location.href = "/heros/hellicarrier";
+    window.location.href = "/heros/helicarrier";
   }
   if (value === "high evolutionary") {
     window.location.href = "/heros/highEvolutionary";
   }
-  if (value === "hit-monkey") {
+  if (value === "hit monkey") {
     window.location.href = "/heros/hitMonkey";
   }  
+   if (value === "hobgoblin") {
+   window.location.href = "/heros/hobgoblin";
+  }
   if (value === "hood") {
-    window.location.href = "/heros/theHood";
+    window.location.href = "/heros/hood";
   }
   if (value === "howard the duck") {
     window.location.href = "/heros/howardTheDuck";
@@ -486,14 +489,14 @@ function redirectToPage(value) {
   if (value === "hulk") {
     window.location.href = "/heros/hulk";
   }
-  if (value === "hulbuster") {
+  if (value === "hulkbuster") {
     window.location.href = "/heros/hulkbuster";
   }
   if (value === "human torch") {
     window.location.href = "/heros/humanTorch";
   }
-  if (value === "iceman") {
-    window.location.href = "/heros/iceman";
+  if (value === "ice man") {
+    window.location.href = "/heros/iceMan";
   }
   if (value === "invisible woman") {
     window.location.href = "/heros/invisibleWoman";
@@ -895,4 +898,3 @@ input.addEventListener("keyup", (e) => {
     }
   }
 });
-
