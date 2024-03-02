@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
-use Illuminate\Foundation\Auth\User as Authenticatable; // Importez la classe Authenticatable
+use Illuminate\Foundation\Auth\User as Authenticatable; 
 use Illuminate\Database\Eloquent\Model;
 
-class Compte extends Authenticatable // Étendez Authenticatable
+class Compte extends Authenticatable 
 {
     protected $table = 'Compte';
     public $timestamps = false;
@@ -17,5 +17,4 @@ class Compte extends Authenticatable // Étendez Authenticatable
         'mdp'
     ];
 
-    // D'autres attributs ou méthodes si nécessaire
 }
