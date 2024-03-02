@@ -25,7 +25,7 @@ class ConnexionController extends Controller
 
         Auth::login($user);
 
-        return redirect('/')->with('success', 'Bonjour ' . $user->prenom . ' !');
+        return redirect('/')->with('success', 'Heureux de vous revoir ' . $user->prenom . ' !');
     }
 
     public function logout()
