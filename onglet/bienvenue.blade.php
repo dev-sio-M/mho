@@ -11,13 +11,16 @@
 <body>
   
   <div class="lineaire-simple"> 
-
+@if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
   <div class="imagedefond5">
-
-     <ul>
-    <button onclick="window.location.href = 'index.html';"> Continuer </button>    
-</ul>
   </div>
+         <form action="/" method=" get">
+              <button type="submit">Continuer</button>
+         </form>
     </div>
 </body>
 
