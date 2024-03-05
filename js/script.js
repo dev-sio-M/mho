@@ -613,7 +613,7 @@ function redirectToPage(value) {
     window.location.href = "/heros/mojo";
   }
   if (value === "moon girl") {
-    window.location.href = "//heros/moonGirl";
+    window.location.href = "/heros/moonGirl";
   }
   if (value === "moon knight") {
     window.location.href = "/heros/moonKnight";
@@ -876,9 +876,7 @@ function redirectToPage(value) {
   if (value === "zero") {
     window.location.href = "/heros/zero";
   }
-  // Ajoutez plus de conditions pour d'autres suggestions et leurs pages correspondantes
-
-  removeElements(); // Supprimer les éléments de suggestion après la redirection
+  removeElements(); 
 }
 
 function removeElements() {
@@ -890,11 +888,9 @@ function removeElements() {
 
 input.addEventListener("keyup", (e) => {
   if (e.keyCode === 13) {
-    // Si la touche "Entrée" est pressée
     let inputValue = input.value.trim();
     if (inputValue !== "") {
-      // Si la valeur de l'entrée n'est pas vide
-      redirectToPage(inputValue);
+F      redirectToPage(inputValue);
     }
   }
 });
